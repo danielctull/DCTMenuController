@@ -21,11 +21,11 @@
 		24D5DD301556BC3100A61395 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		24D5DD321556BC3100A61395 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24D5DD341556BC3100A61395 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		24D5DD381556BC3100A61395 /* DCTMenuController-Info.plist */ = {isa = PBXFileReference; path = "DCTMenuController-Info.plist"; sourceTree = "<group>"; };
+		24D5DD381556BC3100A61395 /* DCTMenuController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTMenuController-Info.plist"; sourceTree = "<group>"; };
 		24D5DD3A1556BC3100A61395 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24D5DD3C1556BC3100A61395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24D5DD3E1556BC3200A61395 /* DCTMenuController-Prefix.pch */ = {isa = PBXFileReference; path = "DCTMenuController-Prefix.pch"; sourceTree = "<group>"; };
-		24D5DD3F1556BC3200A61395 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		24D5DD3E1556BC3200A61395 /* DCTMenuController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTMenuController-Prefix.pch"; sourceTree = "<group>"; };
+		24D5DD3F1556BC3200A61395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24D5DD401556BC3200A61395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24D5DD421556BC3200A61395 /* DCTMenuController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DCTMenuController.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,7 +47,7 @@
 		24D5DD211556BC3100A61395 = {
 			isa = PBXGroup;
 			children = (
-				24D5DD361556BC3100A61395 /* DCTMenuController */,
+				24D5DD361556BC3100A61395 /* DCTMenuController Demo */,
 				24D5DD2F1556BC3100A61395 /* Frameworks */,
 				24D5DD2D1556BC3100A61395 /* Products */,
 			);
@@ -71,14 +71,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		24D5DD361556BC3100A61395 /* DCTMenuController */ = {
+		24D5DD361556BC3100A61395 /* DCTMenuController Demo */ = {
 			isa = PBXGroup;
 			children = (
 				24D5DD3F1556BC3200A61395 /* AppDelegate.h */,
 				24D5DD401556BC3200A61395 /* AppDelegate.m */,
 				24D5DD371556BC3100A61395 /* Supporting Files */,
 			);
-			path = DCTMenuController;
+			path = "DCTMenuController Demo";
 			sourceTree = "<group>";
 		};
 		24D5DD371556BC3100A61395 /* Supporting Files */ = {
@@ -223,10 +223,10 @@
 		24D5DD471556BC3200A61395 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = DCTMenuController/DCTMenuController.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "DCTMenuController Demo/DCTMenuController.entitlements";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTMenuController/DCTMenuController-Prefix.pch";
-				INFOPLIST_FILE = "DCTMenuController/DCTMenuController-Info.plist";
+				GCC_PREFIX_HEADER = "DCTMenuController Demo/DCTMenuController-Prefix.pch";
+				INFOPLIST_FILE = "DCTMenuController Demo/DCTMenuController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -235,10 +235,10 @@
 		24D5DD481556BC3200A61395 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = DCTMenuController/DCTMenuController.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "DCTMenuController Demo/DCTMenuController.entitlements";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTMenuController/DCTMenuController-Prefix.pch";
-				INFOPLIST_FILE = "DCTMenuController/DCTMenuController-Info.plist";
+				GCC_PREFIX_HEADER = "DCTMenuController Demo/DCTMenuController-Prefix.pch";
+				INFOPLIST_FILE = "DCTMenuController Demo/DCTMenuController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
