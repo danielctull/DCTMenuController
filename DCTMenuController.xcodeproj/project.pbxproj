@@ -14,6 +14,8 @@
 		24D5DD3D1556BC3100A61395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D5DD3C1556BC3100A61395 /* main.m */; };
 		24D5DD411556BC3200A61395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D5DD401556BC3200A61395 /* AppDelegate.m */; };
 		24D5DD431556BC3200A61395 /* DCTMenuController.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 24D5DD421556BC3200A61395 /* DCTMenuController.entitlements */; };
+		24D5DD4C1556BCD700A61395 /* UIMenuController+DCTMenuControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D5DD4B1556BCD700A61395 /* UIMenuController+DCTMenuControllerDelegate.m */; };
+		24D5DD4F1556C53000A61395 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D5DD4E1556C53000A61395 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		24D5DD3F1556BC3200A61395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24D5DD401556BC3200A61395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24D5DD421556BC3200A61395 /* DCTMenuController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DCTMenuController.entitlements; sourceTree = "<group>"; };
+		24D5DD4A1556BCD700A61395 /* UIMenuController+DCTMenuControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; path = "UIMenuController+DCTMenuControllerDelegate.h"; sourceTree = "<group>"; };
+		24D5DD4B1556BCD700A61395 /* UIMenuController+DCTMenuControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMenuController+DCTMenuControllerDelegate.m"; sourceTree = "<group>"; };
+		24D5DD4D1556C53000A61395 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24D5DD4E1556C53000A61395 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 		24D5DD211556BC3100A61395 = {
 			isa = PBXGroup;
 			children = (
+				24D5DD491556BCB700A61395 /* DCTMenuController */,
 				24D5DD361556BC3100A61395 /* DCTMenuController Demo */,
 				24D5DD2F1556BC3100A61395 /* Frameworks */,
 				24D5DD2D1556BC3100A61395 /* Products */,
@@ -77,6 +84,8 @@
 				24D5DD3F1556BC3200A61395 /* AppDelegate.h */,
 				24D5DD401556BC3200A61395 /* AppDelegate.m */,
 				24D5DD371556BC3100A61395 /* Supporting Files */,
+				24D5DD4D1556C53000A61395 /* ViewController.h */,
+				24D5DD4E1556C53000A61395 /* ViewController.m */,
 			);
 			path = "DCTMenuController Demo";
 			sourceTree = "<group>";
@@ -91,6 +100,15 @@
 				24D5DD421556BC3200A61395 /* DCTMenuController.entitlements */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24D5DD491556BCB700A61395 /* DCTMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				24D5DD4A1556BCD700A61395 /* UIMenuController+DCTMenuControllerDelegate.h */,
+				24D5DD4B1556BCD700A61395 /* UIMenuController+DCTMenuControllerDelegate.m */,
+			);
+			path = DCTMenuController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +176,8 @@
 			files = (
 				24D5DD3D1556BC3100A61395 /* main.m in Sources */,
 				24D5DD411556BC3200A61395 /* AppDelegate.m in Sources */,
+				24D5DD4C1556BCD700A61395 /* UIMenuController+DCTMenuControllerDelegate.m in Sources */,
+				24D5DD4F1556C53000A61395 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,11 +243,13 @@
 		24D5DD471556BC3200A61395 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "DCTMenuController Demo/DCTMenuController.entitlements";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DCTMenuController Demo/DCTMenuController-Prefix.pch";
 				INFOPLIST_FILE = "DCTMenuController Demo/DCTMenuController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -235,11 +257,13 @@
 		24D5DD481556BC3200A61395 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "DCTMenuController Demo/DCTMenuController.entitlements";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DCTMenuController Demo/DCTMenuController-Prefix.pch";
 				INFOPLIST_FILE = "DCTMenuController Demo/DCTMenuController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -263,6 +287,7 @@
 				24D5DD481556BC3200A61395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
