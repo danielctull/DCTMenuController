@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D5DD311556BC3100A61395 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D5DD301556BC3100A61395 /* UIKit.framework */; };
+		24D5DD331556BC3100A61395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D5DD321556BC3100A61395 /* Foundation.framework */; };
+		24D5DD351556BC3100A61395 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D5DD341556BC3100A61395 /* CoreGraphics.framework */; };
+		24D5DD3B1556BC3100A61395 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24D5DD391556BC3100A61395 /* InfoPlist.strings */; };
+		24D5DD3D1556BC3100A61395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D5DD3C1556BC3100A61395 /* main.m */; };
+		24D5DD411556BC3200A61395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D5DD401556BC3200A61395 /* AppDelegate.m */; };
+		24D5DD431556BC3200A61395 /* DCTMenuController.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 24D5DD421556BC3200A61395 /* DCTMenuController.entitlements */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24D5DD2C1556BC3100A61395 /* DCTMenuController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCTMenuController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D5DD301556BC3100A61395 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24D5DD321556BC3100A61395 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24D5DD341556BC3100A61395 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24D5DD381556BC3100A61395 /* DCTMenuController-Info.plist */ = {isa = PBXFileReference; path = "DCTMenuController-Info.plist"; sourceTree = "<group>"; };
+		24D5DD3A1556BC3100A61395 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24D5DD3C1556BC3100A61395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24D5DD3E1556BC3200A61395 /* DCTMenuController-Prefix.pch */ = {isa = PBXFileReference; path = "DCTMenuController-Prefix.pch"; sourceTree = "<group>"; };
+		24D5DD3F1556BC3200A61395 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		24D5DD401556BC3200A61395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24D5DD421556BC3200A61395 /* DCTMenuController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DCTMenuController.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D5DD291556BC3100A61395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D5DD311556BC3100A61395 /* UIKit.framework in Frameworks */,
+				24D5DD331556BC3100A61395 /* Foundation.framework in Frameworks */,
+				24D5DD351556BC3100A61395 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D5DD211556BC3100A61395 = {
+			isa = PBXGroup;
+			children = (
+				24D5DD361556BC3100A61395 /* DCTMenuController */,
+				24D5DD2F1556BC3100A61395 /* Frameworks */,
+				24D5DD2D1556BC3100A61395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24D5DD2D1556BC3100A61395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D5DD2C1556BC3100A61395 /* DCTMenuController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D5DD2F1556BC3100A61395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24D5DD301556BC3100A61395 /* UIKit.framework */,
+				24D5DD321556BC3100A61395 /* Foundation.framework */,
+				24D5DD341556BC3100A61395 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24D5DD361556BC3100A61395 /* DCTMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				24D5DD3F1556BC3200A61395 /* AppDelegate.h */,
+				24D5DD401556BC3200A61395 /* AppDelegate.m */,
+				24D5DD371556BC3100A61395 /* Supporting Files */,
+			);
+			path = DCTMenuController;
+			sourceTree = "<group>";
+		};
+		24D5DD371556BC3100A61395 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24D5DD381556BC3100A61395 /* DCTMenuController-Info.plist */,
+				24D5DD391556BC3100A61395 /* InfoPlist.strings */,
+				24D5DD3C1556BC3100A61395 /* main.m */,
+				24D5DD3E1556BC3200A61395 /* DCTMenuController-Prefix.pch */,
+				24D5DD421556BC3200A61395 /* DCTMenuController.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24D5DD2B1556BC3100A61395 /* DCTMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D5DD461556BC3200A61395 /* Build configuration list for PBXNativeTarget "DCTMenuController" */;
+			buildPhases = (
+				24D5DD281556BC3100A61395 /* Sources */,
+				24D5DD291556BC3100A61395 /* Frameworks */,
+				24D5DD2A1556BC3100A61395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCTMenuController;
+			productName = DCTMenuController;
+			productReference = 24D5DD2C1556BC3100A61395 /* DCTMenuController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24D5DD231556BC3100A61395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Daniel Tull";
+			};
+			buildConfigurationList = 24D5DD261556BC3100A61395 /* Build configuration list for PBXProject "DCTMenuController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24D5DD211556BC3100A61395;
+			productRefGroup = 24D5DD2D1556BC3100A61395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D5DD2B1556BC3100A61395 /* DCTMenuController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D5DD2A1556BC3100A61395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D5DD3B1556BC3100A61395 /* InfoPlist.strings in Resources */,
+				24D5DD431556BC3200A61395 /* DCTMenuController.entitlements in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D5DD281556BC3100A61395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D5DD3D1556BC3100A61395 /* main.m in Sources */,
+				24D5DD411556BC3200A61395 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24D5DD391556BC3100A61395 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D5DD3A1556BC3100A61395 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24D5DD441556BC3200A61395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24D5DD451556BC3200A61395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24D5DD471556BC3200A61395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DCTMenuController/DCTMenuController.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTMenuController/DCTMenuController-Prefix.pch";
+				INFOPLIST_FILE = "DCTMenuController/DCTMenuController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24D5DD481556BC3200A61395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DCTMenuController/DCTMenuController.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTMenuController/DCTMenuController-Prefix.pch";
+				INFOPLIST_FILE = "DCTMenuController/DCTMenuController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D5DD261556BC3100A61395 /* Build configuration list for PBXProject "DCTMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D5DD441556BC3200A61395 /* Debug */,
+				24D5DD451556BC3200A61395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D5DD461556BC3200A61395 /* Build configuration list for PBXNativeTarget "DCTMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D5DD471556BC3200A61395 /* Debug */,
+				24D5DD481556BC3200A61395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24D5DD231556BC3100A61395 /* Project object */;
+}
